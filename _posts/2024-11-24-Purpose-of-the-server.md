@@ -7,7 +7,7 @@ thumbnail-img:
 share-img: 
 tags: [purpose, hash-ak, server]
 author: Hash-AK
-last-updated: 2024-11-24 @ 17:27
+date: 2024-11-24 17:32:00 -0500
 ---
 ## The Server : Purpose And Background
 Before I start explaining the steps, i need to explain **_why_** and **_how_**. 
