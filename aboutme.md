@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: $: whoami
+subtitle: $whoami
 ---
 
 My name is Hash-AK
