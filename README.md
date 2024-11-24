@@ -1,1 +1,1 @@
-My website, using beautiful-jenkyll
+My website, using beautiful-jekyll
