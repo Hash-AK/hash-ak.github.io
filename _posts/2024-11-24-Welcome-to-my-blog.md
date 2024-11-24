@@ -7,6 +7,7 @@ thumbnail-img:
 share-img: 
 tags: [welcome, hash-ak, first-post]
 author: Hash-AK
+date: 2024-11-24 14:32:00 -0500
 ---
 Hello everyone! I'm Hash-AK! I'm starting this blog on GitHub Sites to share my progress in different field of computer science! 
 My current ongoing project is the making of a server for a makerspace. I will post progress at a (well, _i hope so_ ^^') consistent rate. 
