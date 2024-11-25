@@ -94,7 +94,8 @@ Then say 'No' and 'No' for the "Updating Serial Number" and 'Updating Machine Nu
 Then, you just need to wait ^^ 
 It will reboot the computer. 
 
-{: .box-warning} **Warning:** **_If_** you see it stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
+{: .box-warning}
+**Warning:** **_If_** you see its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
 
 Next when its finished remove the USB stick if you didn't already and you should see the BIOS version updated! 
 Here are some pictures to show the steps in the process :
