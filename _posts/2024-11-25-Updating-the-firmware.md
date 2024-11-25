@@ -49,7 +49,7 @@ But there's a little problem : primo, on the first machine, there was no more OS
 >Windows XP 32bit, 64bit
 
 Erm, only (MS-)DOS-based systems, or simply, Windows.
-We still tried to boot on [the given .ISO](https://download.lenovo.com/pccbbs/thfinkcentre_bios/f4j961usa.iso)but it didn't seems to boot (we saw its name in the boot manager but it just rebooted the computer without starting the installation). 
+We still tried to boot on [the given .ISO](https://download.lenovo.com/pccbbs/thfinkcentre_bios/f4j961usa.iso) but it didn't seems to boot (we saw its name in the boot manager but it just rebooted the computer without starting the installation). 
 Will we be forced to reinstall Windows? 
 The answer is : **_Nope_** 
 Thanks to [FreeDOS](https://www.freedos.org/).
