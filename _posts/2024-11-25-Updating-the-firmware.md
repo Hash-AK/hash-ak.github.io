@@ -55,7 +55,7 @@ The answer is : **_Nope_**
 Thanks to [FreeDOS](https://www.freedos.org/).
 
 {: .box-note}
-**What is FreeDOS?:** According to their website, 
+>**What is FreeDOS?:** According to their website, 
 >"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS." 
 >_Source : [FreeDOS.org](https://www.freedos.org/)_
 
@@ -95,7 +95,7 @@ Then, you just need to wait ^^
 It will reboot the computer. 
 
 {: .box-warning}
-**Warning:** **_If_** you see its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
+**Warning:** If you see its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
 
 Next when its finished remove the USB stick if you didn't already and you should see the BIOS version updated! 
 Here are some pictures to show the steps in the process :
