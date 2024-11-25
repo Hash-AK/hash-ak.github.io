@@ -31,7 +31,8 @@ Well, looking back at the BIOS, we realized something important : The BIOS versi
 
 
 {: .box-note}
->**Information : Why is it important to keep BIOS firmware up-to-date?** {: .box-note}
+**Information : Why is it important to keep BIOS firmware up-to-date?**
+{: .box-note}
 >"The BIOS (Basic Input/Output System) is a fundamental piece of firmware embedded in a computer. It’s responsible for booting up the system and managing data flow between the computer’s operating system and attached devices. Over the years, BIOS has evolved from basic firmware to a more complex and integral part of computer functionality, adapting to the increasing sophistication of modern hardware and software.
 >
 >Keeping one’s BIOS updated is crucial for ensuring that a computer’s hardware is fully compatible with its operating system. These updates can enhance system performance, improve hardware compatibility, fix bugs, and provide security patches. They are essential >for maintaining the overall health and efficiency of a computer.
@@ -56,7 +57,7 @@ The answer is : **_Nope_**
 Thanks to [FreeDOS](https://www.freedos.org/).
 
 {: .box-note}
->**What is FreeDOS?:** According to their website, {: .box-note}
+>**What is FreeDOS?:** According to their website,
 >"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS."
 > _Source: [FreeDOS.org](https://www.freedos.org/)
 
