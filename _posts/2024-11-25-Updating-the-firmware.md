@@ -32,7 +32,7 @@ Well, looking back at the BIOS, we realized something important : The BIOS versi
 
 {: .box-note}
 **Information** **Why is it important to keep BIOS firmware up-to-date?** 
-{: .box-note}
+{: .box-note}  
 >"The BIOS (Basic Input/Output System) is a fundamental piece of firmware embedded in a computer. It’s responsible for booting up the system and managing data flow between the computer’s operating system and attached devices. Over the years, BIOS has evolved from basic firmware to a more complex and integral part of computer >functionality, adapting to the increasing sophistication of modern hardware and software.
 >
 >Keeping one’s BIOS updated is crucial for ensuring that a computer’s hardware is fully compatible with its operating system. These updates can enhance system performance, improve hardware compatibility, fix bugs, and provide security patches. They are essential >for maintaining the overall health and efficiency of a computer."
