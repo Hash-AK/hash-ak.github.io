@@ -71,7 +71,7 @@ After that, mount the key with the GUI. You should see the FreeDOS files correct
 
 Next, create a directory inside the FreeDOS key. Call it "_lenovo_". Unzip the firmware from the Lenovo BIOS update inside the "_lenovo_" dir, remove the USB stick (don't forget to unmount first!) and here you go!
 
-You just plug it in the device open the BIOS, take note of the existing BIOS version, load back the default settings,reboot boot on the USB stick (if you have the option in the boot menu choose Legacy, else just select the USB's name in the list).
+You just plug it in the device, open the BIOS, take note of the existing BIOS version, load back the default settings,reboot boot on the USB stick (if you have the option in the boot menu choose Legacy, else just select the USB's name in the list).
 Select 'English' as language, and click on "No, Return to DOS" when prompted if you want to install FreeDOS :  
 ![Loading default settings in the BIOS](/assets/img/Load-defaults-BIOS.png)  
 _Loading defaults settings in the BIOS_  
@@ -87,7 +87,6 @@ The command prompt will then open. Just type the following :
 cd lenovo\
 autoexec.bat
 ```
-  
 ![FreeDOS command prompt](/assets/img/FreeDOS-command-prompt.png)  
 _FreeDOS command prompt with the command_  
 
@@ -97,7 +96,7 @@ Then, you just need to wait ^^
 It will reboot the computer. 
 
 {: .box-warning}
-**Warning:** If you see its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
+**Warning:** If you see that its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
 
 Next when its finished remove the USB stick, if you didn't already and you should see the BIOS version updated! 
 Here are some pictures to show the steps in the process :
