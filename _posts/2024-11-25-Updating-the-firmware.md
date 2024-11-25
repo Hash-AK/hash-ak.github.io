@@ -58,7 +58,7 @@ The answer is : **_Nope_**
 Thanks to [FreeDOS](https://www.freedos.org/).
 
 {: .box-note}
->**What is FreeDOS?:** According to their website,
+**What is FreeDOS?:** According to their website,
 >{: .box-note}  
 >"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS." 
 >_Source : [FreeDOS.org](https://www.freedos.org/)_
