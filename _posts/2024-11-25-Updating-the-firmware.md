@@ -5,7 +5,7 @@ subtitle: Diving into UEFI problem on the makerspace's server
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [makerspace, hash-ak, server]
+tags: [makerspace, hash-ak, server, UEFI, BIOS, Firmware, Update, M72e, Lenovo, Thinkcentre]
 author: Hash-AK
 ---
 ## Part 1: Starting the work!
@@ -49,7 +49,7 @@ But there's a little problem : primo, on the first machine, there was no more OS
 >Windows 8.1 32bit, 64bit  
 >Windows Vista 32bit, 64bit  
 >Windows XP 32bit, 64bit
-
+_source : [support.lenovo.com](https://support.lenovo.com/us/en/downloads/ds029184-flash-bios-update-thinkcentre-m72e-tiny)_
 Erm, only (MS-)DOS-based systems, or simply, Windows.
 We still tried to boot on [the given .ISO](https://download.lenovo.com/pccbbs/thfinkcentre_bios/f4j961usa.iso) but it didn't seems to boot (we saw its name in the boot manager but it just rebooted the computer without starting the installation). 
 Will we be forced to reinstall Windows? 
