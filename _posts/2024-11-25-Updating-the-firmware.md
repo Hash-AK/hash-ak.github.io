@@ -82,10 +82,11 @@ _Selecting the correct language in FreeDOS_
 _Coming back to FreeDOS and aborting the install process_
 
 The command prompt will then open. Just type the following :
-```DOS
+```
 cd lenovo\
 autoexec.bat
-```  
+```
+  
 ![FreeDOS command prompt](/assets/img/FreeDOS-command-prompt.png)  
 _FreeDOS command prompt with the command_  
 
