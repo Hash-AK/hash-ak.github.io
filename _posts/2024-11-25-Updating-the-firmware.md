@@ -54,14 +54,11 @@ Erm, only (MS-)DOS-based systems, or simply, Windows.
 We still tried to boot on [the given .ISO](https://download.lenovo.com/pccbbs/thfinkcentre_bios/f4j961usa.iso) but it didn't seems to boot (we saw its name in the boot manager but it just rebooted the computer without starting the installation). 
 Will we be forced to reinstall Windows? 
 The answer is : **_Nope_** 
-Thanks to [FreeDOS](https://www.freedos.org/).
-
+Thanks to [FreeDOS](https://www.freedos.org/).  
 {: .box-note}
-**What is FreeDOS?:** 
->According to their website,
->"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS." 
->_Source : [FreeDOS.org](https://www.freedos.org/)_
-{: .box-note}
+**What is FreeDOS?:** According to their website,  
+>"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS."  
+> _Source: [FreeDOS.org](https://www.freedos.org/)_
 
 So basically you can just boot on that system from a live USB stick, and run .exe files! 
 ## Part 3:  How to update the BIOS, step by step
