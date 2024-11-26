@@ -10,7 +10,7 @@ author: Hash-AK
 ---
 ## Part 1: Starting the work!
 So let's start this server!
-As i said in [My previous blog post](obsidian://open?vault=Obsidian%20Vault&file=Blog%2F2024-11-24-Purpose-of-the-server), the v.1 was running on old laptops.  So the first step to start to the new devices ( _Lenovo Thinkcentre M72e Tiny_, to be precise) was to start from zero, well to get rid of the default Windows installed on them.
+As i said in [My previous blog post](/_posts/2024-11-24-Purpose-of-the-server.md), the v.1 was running on old laptops.  So the first step to start to the new devices ( _Lenovo Thinkcentre M72e Tiny_, to be precise) was to start from zero, well to get rid of the default Windows installed on them.
 
 
 ![Get rid of windows meme](https://i.imgflip.com/6bflpq.jpg)
