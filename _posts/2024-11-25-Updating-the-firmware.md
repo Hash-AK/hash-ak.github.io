@@ -34,7 +34,7 @@ Well, looking back at the BIOS, we realized something important : The BIOS versi
 >**Information : Why is it important to keep BIOS firmware up-to-date?**
 >"The BIOS (Basic Input/Output System) is a fundamental piece of firmware embedded in a computer. It’s responsible for booting up the system and managing data flow between the computer’s operating system and attached devices. Over the years, BIOS has evolved from basic firmware to a more complex and integral part of computer functionality, adapting to the increasing sophistication of modern hardware and software.
 >
->Keeping one’s BIOS updated is crucial for ensuring that a computer’s hardware is fully compatible with its operating system. These updates can enhance system performance, improve hardware compatibility, fix bugs, and provide security patches. They are essential >for maintaining the overall health and efficiency of a computer.
+>Keeping one’s BIOS updated is crucial for ensuring that a computer’s hardware is fully compatible with its operating system. These updates can enhance system performance, improve hardware compatibility, fix bugs, and provide security patches. They are essential for maintaining the overall health and efficiency of a computer.
 >BIOS updates refine the firmware that controls hardware-software interaction. They are **essential for adapting the system to new technological standards** and often include advanced features like secure boot in modern UEFI (Unified Extensible Firmware Interface)"  
 > _source: [Ninjaone.com](https://www.ninjaone.com/blog/how-to-update-your-pcs-bios/)_
 
