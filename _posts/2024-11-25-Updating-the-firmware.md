@@ -26,7 +26,7 @@ Nothing.
 We tested on another device (Still a M72e Tiny)
 And on that one detected correctly the UEFI mode and installed it just fine. What is the difference? Why did they reacted that differently?
 
-Well, looking back at the BIOS, we realized something important : The BIOS version/date was different on the 2 devices, the second one, the one that booted correctly, being more recent (i cant remember the exact version but the one that dint boot had a BIOS version of 2012 and the other one had a BIOS from 2013). I think we found our problem...
+Well, looking back at the BIOS, we realized something important : The BIOS version/date was different on the 2 devices, the second one, the one that booted correctly, being more recent (i cant remember the exact version but the one that didn't boot had a BIOS version of 2012 and the other one had a BIOS from 2013). I think we found our problem...
 
 
 
@@ -68,7 +68,7 @@ With that card in hand its actually pretty easy to update the firmware : grab [t
 ```bash
 cat FD13LITE.img > /dev/sdb
 ```
-After that, mount the key with the GUI. You should see the FreeDOS files correctly setup in the folder (probably mounted in /media/(your username)/(device name) if you're on Ubuntu). **_If it didn't work_**, you cant still try to use a flashing tool like Etcher. 
+After that, mount the key with the GUI. You should see the FreeDOS files correctly setup in the folder (probably mounted in /media/(your username)/(device name) if you're on Ubuntu). **_If it didn't work_**, you can still try to use a flashing tool like Etcher. 
 
 Next, create a directory inside the FreeDOS key. Call it "_lenovo_". Unzip the firmware from the Lenovo BIOS update inside the "_lenovo_" dir, remove the USB stick (don't forget to unmount first!) and here you go!
 
