@@ -107,9 +107,8 @@ It will reboot the computer.
 ![Image of the process after the system reboot](/assets/img/BIOS-update-after-reboot.png)  
 _Image of the process after the system reboot_
 
-Next when its finished remove the USB stick, if you didn't already, and you should see the BIOS version updated! 
-Here are some pictures to show the steps in the process :
-
+Next when its finished remove the USB stick, if you didn't already, and you should see the BIOS version updated (you may need to reboot to access the BIOS)! 
+Here's the picture of the up-to-date BIOS page :  
 ![The BIOS version is up-to-date now!](/assets/img/BIOS-update-complete.png)  
 Then I could finally install Ubuntu 18.04 to test if it was ok.  I started the install process of Ubuntu 22.04 Live Server on one of the machines (after the hard drive crashed during install so I had to restart the process).
 There's still a loooong road  before it becomes a fully functional server. 
