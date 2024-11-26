@@ -98,15 +98,17 @@ Then say 'No' to both "Updating Serial Number" and 'Updating Machine Number' pro
 _Say 'No' to both of the prompts_  
 
 Then, you just need to wait ^^ 
-It will reboot the computer. 
-
+It will reboot the computer.  
+![Image of the process bar](/assets/img/BIOS-update-process2.png)  
 {: .box-warning}
-**Warning:** If you see that its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.
+**Warning:** If you see that its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.  
+![Image of the process after the system reboot](/assets/img/BIOS-update-after-reboot.png)  
+_Image of the process after the system reboot_
 
-Next when its finished remove the USB stick, if you didn't already and you should see the BIOS version updated! 
+Next when its finished remove the USB stick, if you didn't already, and you should see the BIOS version updated! 
 Here are some pictures to show the steps in the process :
 
-![The BIOS version is up-to-date now!](/assets/img/BIOS-version-uptodate.heic)
+![The BIOS version is up-to-date now!](assets/img/BIOS-update-complete.png)
 Then I could finally install Ubuntu 18.04 to test if it was ok.  I started the install process of Ubuntu 22.04 Live Server on one of the machines (after the hard drive crashed during install so I had to restart the process).
 There's still a loooong road  before it becomes a fully functional server. 
 
