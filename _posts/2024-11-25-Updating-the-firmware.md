@@ -93,6 +93,9 @@ _FreeDOS command prompt with the command_
 
 Here we go!
 Then say 'No' to both "Updating Serial Number" and 'Updating Machine Number' prompt.
+![Refusing to update the Serial Number](/assets/img/BIOS-updating-SN.png)  
+![Refusing to update the Machine Type](/assets/img/BIOS-updating-MachineType.png)  
+_Say 'No' to both of the prompts  
 Then, you just need to wait ^^ 
 It will reboot the computer. 
 
