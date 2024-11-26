@@ -63,7 +63,7 @@ Thanks to [FreeDOS](https://www.freedos.org/).
 
 So basically you can just boot on that system from a live USB stick, and run .exe files! 
 ## Part 3:  How to update the BIOS, step by step
-So we're not doomed to use windows again. Oof
+So we're not doomed to use windows again. Oof...
 With that card in hand its actually pretty easy to update the firmware : grab [the zip](https://download.lenovo.com/pccbbs/thinkcentre_bios/f4jt61usa.zip)for the M72e Tiny's latest BIOS, grab FreeDOS's [LiteUSB](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiteUSB.zip). Put that in a folder, whatever it is/ Plug an USB stick (formatted) in your Linux, make sure its unmounted. First, unzip the FreeDOS zip, then after checking what device is your USB key (with lsblk), do (_note_: **replace sdb with your USB stick's device name)**: 
 ```bash
 cat FD13LITE.img > /dev/sdb
