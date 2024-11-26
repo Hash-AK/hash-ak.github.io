@@ -99,10 +99,11 @@ _Say 'No' to both of the prompts_
 
 Then, you just need to wait ^^ 
 It will reboot the computer.  
-![Image of the process bar](/assets/img/BIOS-update-process2.png)  
+![Image of the process bar](/assets/img/BIOS-update-process2.png)
 
 {: .box-warning}
 **Warning:** If you see that its stuck powered on but with no signal on the display for **MORE** than five minutes, remove the USB stick and press the power button. It should wake it up and finish the tasks.  
+
 ![Image of the process after the system reboot](/assets/img/BIOS-update-after-reboot.png)  
 _Image of the process after the system reboot_
 
