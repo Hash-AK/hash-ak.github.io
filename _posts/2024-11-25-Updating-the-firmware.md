@@ -113,7 +113,9 @@ Here's the picture of the up-to-date BIOS page :
 
 ## Part 4: Conclusion
 Then I could finally install Ubuntu 18.04 to test if it was ok.  I started the install process of Ubuntu 22.04 Live Server on one of the machines (after the hard drive crashed during install so I had to restart the process).
-There's still a loooong road  before it becomes a fully functional server. 
+There's still a loooong road  before it becomes a fully functional server.  
+![A picture of the M72e fully updated installing Ubuntu 22.04 Server Live.](/assets/img/Installing-ubuntu-server.png)  
+_Installing and updating UbuntuServer Live on the now up-to-date machines_  
 
 So here's all for today! Stay tuned for the continuation of this project!
 
