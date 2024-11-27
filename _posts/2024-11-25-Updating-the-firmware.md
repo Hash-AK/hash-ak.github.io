@@ -5,7 +5,7 @@ subtitle: Diving into UEFI problem on the makerspace's server
 cover-img: 
 thumbnail-img: /assets/img/FreeDOS-return-to-dos.png
 share-img: 
-tags: [makerspace, hash-ak, server, UEFI, BIOS, Firmware, Update, M72e, Lenovo, Thinkcentre]
+tags: [makerspace, hash-ak, server, UEFI, BIOS, Firmware, Update, M72e, Lenovo, Thinkcentre, FreeDOS, DOS, Ubuntu, Ubuntu 22.04]
 author: Hash-AK
 ---
 ## Part 1: Starting the work!
