@@ -3,7 +3,7 @@ layout: post
 title: Purpose of the server
 subtitle: Why am I doing this
 cover-img: 
-thumbnail-img: 
+thumbnail-img: /assets/img/Old-server-censored.png
 share-img: 
 tags: [purpose, hash-ak, server]
 author: Hash-AK
