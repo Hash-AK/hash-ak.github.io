@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Purpose of the server
+title: Purpose of the makerspace's server
 subtitle: Why am I doing this
 cover-img: 
 thumbnail-img: /assets/img/Old-server-censored.png
