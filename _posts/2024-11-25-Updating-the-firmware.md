@@ -59,7 +59,7 @@ Thanks to [FreeDOS](https://www.freedos.org/).
 {: .box-note}
 >**What is FreeDOS?:** According to their website,
 >"FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or write new DOS programs. Any program that works on MS-DOS should also run on FreeDOS."
-> _Source: [FreeDOS.org](https://www.freedos.org/)
+> _Source: [FreeDOS.org](https://www.freedos.org/)_
 
 So basically you can just boot on that system from a live USB stick and run .exe files! 
 ## Part 3:  How to update the BIOS, step by step
