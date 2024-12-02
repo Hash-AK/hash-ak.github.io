@@ -8,7 +8,7 @@ share-img:
 tags: [makerspace, hash-ak, server, media, usb, installation, M72e, Lenovo, Thinkcentre, Ubuntu, Ubuntu 22.04]
 author: Hash-AK
 ---
-## [Makerspace's Server] Always Check Your installation medias! 
+## Always Check Your installation medias! 
 
 Today's post is pretty short lol. It's a friendly reminder to **always** check your installation medias. Why? Let me explain the story :
 
@@ -28,5 +28,5 @@ After verification, we found that the USB was nearly 4GB and the .iso was.... 5G
 So after taking a bigger SB and reflashing,, Ubuntu booted and installed just fine.
 
 
-So yeah! Always check your Installation medias!
+So yeah! Always check your Installation medias!  
 **_Hash-AK_**
