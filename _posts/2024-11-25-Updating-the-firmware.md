@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {Makerspace's Server part 1}
+title: (Makerspace's Server Part 1)
 subtitle: Updating the firmware
 cover-img: 
 thumbnail-img: /assets/img/FreeDOS-return-to-dos.png
