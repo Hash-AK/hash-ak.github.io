@@ -1,7 +1,7 @@
 ---
 layout: post
 title: {Makerspace's Server part 1}
-subtitle: Diving into UEFI problem on the makerspace's server
+subtitle: Updating the firmware
 cover-img: 
 thumbnail-img: /assets/img/FreeDOS-return-to-dos.png
 share-img: 
