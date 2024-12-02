@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Makerspace's Sever] Purpose and History
+title: (Makerspace's Sever) Purpose and History
 subtitle: Why am I doing this
 cover-img: 
 thumbnail-img: /assets/img/Old-server-censored.png
