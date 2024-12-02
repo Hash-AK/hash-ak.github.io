@@ -5,7 +5,7 @@ subtitle: Always Check your installation medias!
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [makerspace, hash-ak, server, media, usb, installation, , M72e, Lenovo, Thinkcentre, Ubuntu, Ubuntu 22.04]
+tags: [makerspace, hash-ak, server, media, usb, installation, M72e, Lenovo, Thinkcentre, Ubuntu, Ubuntu 22.04]
 author: Hash-AK
 ---
 ## [Makerspace's Server] Always Check Your installation medias! 
