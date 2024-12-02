@@ -3,7 +3,7 @@ layout: post
 title: (Makerspace's Server Part 2)
 subtitle: Always Check your installation medias!
 cover-img: 
-thumbnail-img: 
+thumbnail-img: /assets/img/Boot-Menu-Show-Options.png
 share-img: 
 tags: [makerspace, hash-ak, server, media, usb, installation, M72e, Lenovo, Thinkcentre, Ubuntu, Ubuntu 22.04]
 author: Hash-AK
