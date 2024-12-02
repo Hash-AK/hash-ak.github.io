@@ -27,7 +27,7 @@ And then, we saw an error message : "Not enough place left on the device"
 After verification, we found that the USB was nearly 4GB and the .iso was.... 5GB. 
 So after taking a bigger SB and reflashing,, Ubuntu booted and installed just fine.  
 
-![Image of the boot menu with the USB media detected](/assets/img/Boot-Menu-Show-Options.png/)  
+![Image of the boot menu with the USB media detected](/assets/img/Boot-Menu-Show-Options.png)  
 _The boot menu with the USB media detected_
 So yeah! Always check your Installation medias!  
 **_Hash-AK_**
