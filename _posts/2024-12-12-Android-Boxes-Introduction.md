@@ -39,6 +39,11 @@ Swap:          499            0          499
 
 ```
 
+
+
+![UART Plugged in the s802](/assets/img/Android-boxe-s802-uart.jpg)  
+_UART connected to the S802 board_  
+
 Weirdly enough when plugged on my S805 board I get no boot logs, so I wasn't able to test on that one sadly.
 
 But now I have more information :
