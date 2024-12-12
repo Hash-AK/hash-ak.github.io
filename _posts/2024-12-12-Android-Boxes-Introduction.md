@@ -48,4 +48,7 @@ But now I have more information :
 - Both have booted with LibreELEC (S805 was [this one](http:/https://libreelec.dtech.hu/images/S805/LibreELEC-HD18Q.arm-9.2.8.15.img.gz/ "this one"), and S802 with [that one](http://https://libreelec.dtech.hu/images/3rdParty/LibreELEC-MXIII-1G.arm-9.2.8.15.img.gz "that one"))
 - There was a port of Linux on them (again, LibreELEC). built with kernel 3.10, again. Saddly LibreELEC in itself lack the functionalities I need (namely a package manager, gcc/make, optionally a GUI)
 
-I still have a some work before reaching my goal ^^`
+Well... I`m a little bit more advanced but not that much. Still no Debian/Ubuntu/Armbian images in sight. 
+I definitely need some work to reach my goal. If it's even possible...   
+Stay tuned to know where this will go!  
+**_Hash-AK_**
