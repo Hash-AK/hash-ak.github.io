@@ -5,7 +5,7 @@ subtitle: The Amlogic Fever
 cover-img: 
 thumbnail-img: /assets/img/Android-Boxes-2-images.jpg
 share-img: 
-tags: [android, hash-ak, linux, amlogic, kernel, uart, ttl. s805, s802, mxq. mxiii. libreelec, armbian]
+tags: [android, hash-ak, linux, amlogic, kernel, uart, ttl. s805, s802, mxq, mxiii, libreelec, armbian]
 author: Hash-AK
 ---
 
