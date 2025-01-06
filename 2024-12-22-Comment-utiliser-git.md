@@ -33,4 +33,15 @@ Comme on peut le voir ici :
 Ensuite, sur votre machine locale (celle ou vous codez) tapez simplement :
 git clone git@(ip ou nom local du serveur):/chemin/vers/votre/projet.git  
 Normallement, a cette etape si le serveur vous demandera le mot de passe pour l'utilisateur git (a moin que votre machine ai ete authorisee a se connecter au prealable). Communiquer avec les administrateurs pour le mot de passe
-![Git demandant le mot de passe](/assets/img/Git-requesting-password.png)
+![Git demandant le mot de passe](/assets/img/Git-requesting-password.png)  
+Si vous venez juste d'init le repo c'est normal que le systeme dise 'warning: You appear to have cloned an empty repository.'
+Maintenant vous pouvez allez dans le dossier avec 'cd (nom du dossier cloner, sans le .git), rajouter des fichier, modifier des fichiers existants, etc.
+Quand vous etes pret a garder cette version du code, taper (dans le dossier) :  
+git add --all  
+ensuite:  
+git commit -m "un bref message qui explque les changements apportees"
+et enfin, quand vous etes prets :
+git push  
+
+A noter que la premiere fois le code va vous demander te vous identifier avec git --global user.name etc. Faites comme le system vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaisiez apres)
+
