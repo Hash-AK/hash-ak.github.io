@@ -23,4 +23,9 @@ Tout d'abord il faut initialiser le repo git (la ou le code va etre archiver) su
 > [!NOTE]
 > Cette section est plus informative car cette etape sera probablement deja faite pour vous
 
-Si vous le pouvez, taper les commandes suivantes a la localisation specifier si vous avez acces au serveur, sinon aviser les personnes responsables.
+Si vous le pouvez, taper les commandes suivantes a la localisation specifier si vous avez acces au serveur, sinon aviser les personnes responsables.  
+En tant que l'utilisateur 'git' :
+git init --bare NomDuProjet.git  
+
+Comme on peut le voir ici :  
+![Prompt du git](/assets/img/Git-init-on-server.png)
