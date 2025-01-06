@@ -15,3 +15,12 @@ Le _source control_ est un moyen de garder trace des versions d'un code sur lequ
 A noter que git a ete installer avec une approche comme celle mentioner [dans ce poste](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
 
 Dans ce poste je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'integrer a VSCode 
+
+
+## Command Line
+
+Tout d'abord il faut initialiser le repo git (la ou le code va etre archiver) sur le serveur distant.  
+> [!NOTE]
+> Cette section est plus informative car cette etape sera probablement deja faite pour vous
+
+Si vous le pouvez, taper les commandes suivantes a la localisation specifier si vous avez acces au serveur, sinon aviser les personnes responsables.
