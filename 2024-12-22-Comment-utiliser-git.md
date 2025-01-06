@@ -29,3 +29,8 @@ git init --bare NomDuProjet.git
 
 Comme on peut le voir ici :  
 ![Prompt du git](/assets/img/Git-init-on-server.png)
+
+Ensuite, sur votre machine locale (celle ou vous codez) tapez simplement :
+git clone git@(ip ou nom local du serveur):/chemin/vers/votre/projet.git  
+Normallement, a cette etape si le serveur vous demandera le mot de passe pour l'utilisateur git (a moin que votre machine ai ete authorisee a se connecter au prealable). Communiquer avec les administrateurs pour le mot de passe
+![Git demandant le mot de passe](/assets/img/Git-requesting-password.png)
