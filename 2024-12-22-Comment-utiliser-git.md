@@ -5,7 +5,7 @@ subtitle: Petit tutoriel sur l'utilisation du source control
 cover-img: 
 thumbnail-img:
 share-img: 
-tags: [git, hash-ak, server, sourcecontrol]
+tags: [git, hash-ak, server, sourcecontrol, linux, vscode, terminal, cli, code]
 author: Hash-AK
 ---
 Vous avez peut-etre deja entendu parler de "git" ou de "source control", probablement en rapport avec GitHub.  
