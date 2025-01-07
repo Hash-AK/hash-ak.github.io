@@ -49,3 +49,16 @@ Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le meme pro
 A noter que sur le serveur, dans le dossier votreprojet.git vous **ne verrez PAS** votre code. Il est syncroniser a chaque push mais il n'existe pas en tant que tel dans le dossier sur le serveur. C'est pourquoi pour travailler sur votre code vous devez le git clone, add, commit, push comme mentionner sur une autre machine.
 
 ![Git add, commit, push](/assets/img/Git-add-commit-push.png)  
+
+Et voila! Maintenant passons a VSCode.
+
+## VSCode 
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+Visual Studio Code, ou VSCode, est, comme le dit wikipedia :
+>"Un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS.
+>
+>Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code (IntelliSense.), les snippets, la refactorisation du code et **Git** >intégré. Les utilisateurs peuvent modifier le thème, les raccourcis clavier, les préférences et installer des extensions qui ajoutent des fonctionnalités supplémentaires. "
+>{..}
+>"Dans le sondage auprès des développeurs réalisé par Stack Overflow en 2023, Visual Studio Code a été classé comme l'outil d'environnement de développement (IDE) le plus populaire, avec plus de 73 % des 86 544 répondants déclarant l'utiliser"
+
+C'est donc un editeur de texte avec des fonctions interessantes, comme le support de Git, et il est utiliser par beucoups de monde. Dans cette sections je vais vous expliquer comment syncroniser vscode avec un serveur git sur le meme reseau
