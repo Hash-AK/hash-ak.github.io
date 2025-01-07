@@ -54,7 +54,7 @@ Et voila! Maintenant passons a VSCode.
 
 ## VSCode 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-Visual Studio Code, ou VSCode, est, comme le dit wikipedia :
+, ou VSCode, est, comme le dit Wikipedia :
 >"Un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS.
 >
 >Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code (IntelliSense.), les snippets, la refactorisation du code et **Git** >intégré. Les utilisateurs peuvent modifier le thème, les raccourcis clavier, les préférences et installer des extensions qui ajoutent des fonctionnalités supplémentaires. "
