@@ -8,6 +8,13 @@ share-img:
 tags: [git, hash-ak, server, sourcecontrol, linux, vscode, terminal, cli, code]
 author: Hash-AK
 ---
+<div id="webring-wrapper">
+  <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
+  <a href="https://webring.hackclub.com/" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
+  <a href="https://webring.hackclub.com/" id="nextBtn" class="webring-anchor" title="Next">›</a>
+  <script src="https://webring.hackclub.com/embed.min.js"></script>
+</div>
+
 Vous avez peut-etre deja entendu parler de "git" ou de "source control", probablement en rapport avec GitHub.  
 
 Le _source control_ est un moyen de garder trace des versions d'un code sur lequel on travail. Cela permet de reveir en arriere si quelquechose tourne mal, de collaborer plus facilement, etc.  
