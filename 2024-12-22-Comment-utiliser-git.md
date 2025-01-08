@@ -67,4 +67,10 @@ C'est donc un editeur de texte avec des fonctions interessantes, comme le suppor
 Premierement, cliquer sur le boutton avec 3 points relies par des branches (comme illuster ci-dessous) :  
 ![Boutton source-control dans vscode](/assets/img/vscode-sourcecontrol-button.png)  
 
-Pr
+Cela ouvrira un dialogue en haut de la page. Taper la meme chose quand command line (ex. git@192.168.0.132:/usr/local/git/test.git). Cela ouvrira votre explorateur de fichiers. Choisisez un dossier de destination.
+
+VSCode vous demanderas si vous voulez ouvrir le repo qui a ete cloner, appuyer sur 'ouvrir' (ou open) :  
+![ouvrir rep ocloner](/assets/img/vscode-open-cloned-repo.png)  
+Finnalement, cliquer sur 'oui, faire confiance' quand cela vous sera demander.  
+Voila! Maintenant vous devriez voir les fichiers de votre repo (si vous l'avez deja modifier puis push au paravant)
+
