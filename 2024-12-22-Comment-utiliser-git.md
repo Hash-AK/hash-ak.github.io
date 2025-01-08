@@ -60,6 +60,11 @@ Et voila! Maintenant passons a VSCode.
 >"Dans le sondage auprès des développeurs réalisé par Stack Overflow en 2023, Visual Studio Code a été classé comme l'outil d'environnement de développement (IDE) le plus populaire, avec plus de 73 % des 86 544 répondants déclarant l'utiliser"
 
 C'est donc un editeur de texte avec des fonctions interessantes, comme le support de Git, et il est utiliser par beucoups de monde. Dans cette sections je vais vous expliquer comment syncroniser vscode avec un serveur git sur le meme reseau
+
 {: .box-note} Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clef de connection a distance ssh authorisee sur le serveur. Demandez a vos administrateurs si c'est le cas.
 
 
+Premierement, cliquer sur le boutton avec 3 points relies par des branches (comme illuster ci-dessous) :  
+![Boutton source-control dans vscode](/assets/img/vscode-sourcecontrol-button.png)  
+
+Pr
