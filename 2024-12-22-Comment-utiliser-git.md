@@ -74,3 +74,21 @@ VSCode vous demanderas si vous voulez ouvrir le repo qui a ete cloner, appuyer s
 Finnalement, cliquer sur 'oui, faire confiance' quand cela vous sera demander.  
 Voila! Maintenant vous devriez voir les fichiers de votre repo (si vous l'avez deja modifier puis push au paravant)
 
+Au fur et a mesure que vous modifier du code, rajouter des fichiers, etc, vous verrez une pastille avec des nombres sur le symbole 'source control' dans la barre laterale.
+Cela represente les changement apporter localement qui n'ont pas (encore) ete synchroniser avec le serveur:  
+![Pastilles montrant les changement non-syncroniser](/assets/img/VScode-pastille-sourcecontrol.png)  
+Nous allons donc proceder a la synchronisation.  
+Cliquer sur le boutton du source control. Ensuite cliquez sur 'Commit changes'. Un dialogue apparaitra vous disant qu'il n'y a aucun changement _stager_, c'est a dire en attente d'etre envoyer en commit (en gros vscode n'a pas encore fait git add --all).   
+Cliquer sur "always" (toujours). 
+Cela vous ouvrira sur un nouveau fichier, probablement .git/COMMIT_EDITMSG. 
+En bas des lignes commencent par '#', ecriver votre message de commit. Puis, sauvegarder le fichiers (CTRL+S). 
+Une autre popup apparaitra :  
+![Popup pour l'edition de COMMIT_EDITMSG](/assets/img/VScode-editer-commit_editmsg.png)  
+Cliquer sur Save (sauvegarder)  
+Cela vous rammenera a l'ecran du source-control. Cliquez sur le boutton bleu avec les fleches dans la barre laterale :  
+![Vscode boutton push](/assets/img/VSCode-boutton-push.png)  
+Finnalement, vous pouvez cliquer sur 'OK'.  
+
+A noter qu'un message pourrait apparaitre dans le coin inferieur droit demandant si vous voulez que vscode execute periodiquement la commande 'git fetch'. Cette command permet de mettere a jour le repo cloner actuel en cas d'eventuelle mise-a-jour depuis une autre machine (si quelqu'un d'autre travaille sur le meme project git que vous et push des changements, par example). Le choix d'accepter ou non est le votre.
+
+
