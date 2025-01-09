@@ -13,9 +13,9 @@ Vous avez peut-être déjà entendu parler de "Git" ou de "source control", prob
 
 Le _source control_ est un moyen de garder trâce des versions d'un code sur lequel on travail. Cela permet de reveir en arrière si quelque-chose tourne mal, de collaborer plus facilement, etc.  
 [GitHub.com](https://github.com) est l'un des sites de source control les plus utilisés, mais dans notre cas ici on va utiliser du source control _local_, avec git sur Linux. 
-À noter que git a été installé avec une approche comme celle mentionnée [dans ce poste](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
+À noter que git a été installé avec une approche comme celle mentionnée [dans cet article](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
 
-Dans ce poste je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'intégrer a VSCode 
+Dans l'article présent je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'intégrer a VSCode 
 
 
 ## Command Line
@@ -88,7 +88,7 @@ Nous allons donc proceder a la synchronisation.
 Cliquer sur le boutton du source control. Ensuite cliquez sur 'Commit changes'. Un dialogue apparaitra vous disant qu'il n'y a aucun changement _stager_, c'est a dire en attente d'etre envoyer en commit (en gros vscode n'a pas encore fait git add --all).   
 Cliquer sur "always" (toujours). 
 Cela vous ouvrira sur un nouveau fichier, probablement .git/COMMIT_EDITMSG. 
-En bas des lignes commencent par '#', ecriver votre message de commit. Puis, sauvegarder le fichiers (CTRL+S). 
+En bas des lignes commencent par '#', écriver votre message de commit. Puis, sauvegarder le fichiers (CTRL+S). 
 Une autre popup apparaitra :  
 ![Popup pour l'edition de COMMIT_EDITMSG](/assets/img/VScode-editer-commit_editmsg.png)  
 Cliquer sur Save (sauvegarder)  
@@ -96,6 +96,6 @@ Cela vous rammenera à l'écran du source-control. Cliquez sur le boutton bleu a
 ![Vscode boutton push](/assets/img/VSCode-boutton-push.png)  
 Finnalement, vous pouvez cliquer sur 'OK'.  
 
-À noter qu'un message pourrait apparaitre dans le coin inferieur droit demandant si vous voulez que vscode execute périodiquement la commande 'git fetch'. Cette command permet de mettere a jour le repo cloner actuel en cas d'eventuelle mise-a-jour depuis une autre machine (si quelqu'un d'autre travaille sur le meme project git que vous et push des changements, par example). Le choix d'accepter ou non est le votre.
+À noter qu'un message pourrait apparaitre dans le coin inferieur droit demandant si vous voulez que VSCode execute périodiquement la commande 'git fetch'. Cette commande permet de mettere a jour le repo cloner actuel en cas d'éventuelle mise-à-jour depuis une autre machine (si quelqu'un d'autre travaille sur le même project git que vous et push des changements, par example). Le choix d'accepter ou non est le votre.
 
 
