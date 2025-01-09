@@ -21,8 +21,10 @@ Dans l'article présent je vous montrerai comment 1) utiliser git depuis la lign
 ## Command Line
 
 Tout d'abord il faut initialiser le repo git (là où le code va être archivé) sur le serveur distant.  
-{: .box-note}Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
+{: .box-note}
+Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
 Si vous le pouvez, taper les commandes suivantes à la localisation spécifier si vous avez accès au serveur, sinon aviser les personnes responsables.  
+
 En tant que l'utilisateur 'git' :
 ```console
 git init --bare NomDuProjet.git  
@@ -68,7 +70,8 @@ Et voila! Maintenant passons à VSCode.
 
 C'est donc un éditeur de texte avec des fonctions intéressantes, comme le support de Git, et il est utiliser par beaucoups de monde. Dans cette section je vais vous expliquer comment syncroniser vscode avec un serveur git sur le même réseau
 
-{: .box-note}Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
+{: .box-note}
+Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
 
 
 Premièrement, cliquer sur le boutton avec 3 points reliés par des branches (comme illuster ci-dessous) :  
