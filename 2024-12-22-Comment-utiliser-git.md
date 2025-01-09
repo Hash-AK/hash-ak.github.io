@@ -21,7 +21,7 @@ Dans l'article présent je vous montrerai comment 1) utiliser git depuis la lign
 ## Command Line
 
 Tout d'abord il faut initialiser le repo git (là où le code va être archivé) sur le serveur distant.  
-{: .box-note} Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
+{: .box-note}Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
 Si vous le pouvez, taper les commandes suivantes à la localisation spécifier si vous avez accès au serveur, sinon aviser les personnes responsables.  
 En tant que l'utilisateur 'git' :
 ```console
