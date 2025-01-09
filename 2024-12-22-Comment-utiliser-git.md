@@ -51,7 +51,7 @@ et enfin, quand vous êtes prêts :
 ```console
 git push  
 ```
-A noter que la première fois le code va vous demander de vous identifier avec git --global user.name etc. Faites comme le système vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaissiez après)
+À noter que la première fois le code va vous demander de vous identifier avec git --global user.name et git --global user.email. Faites comme le système vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.local pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaissiez après)
 
 Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le même processus (clone, add, commit, push) depuis un autre ordinateur du réseau, ce qui permet de la collaboration sur un projet. 
 À noter que sur le serveur, dans le dossier votreprojet.git vous **ne verrez PAS** votre code. Il est syncroniser à chaque push mais il n'existe pas en tant que tel dans le dossier sur le serveur. C'est pourquoi pour travailler sur votre code vous devez le git clone, add, commit, push comme mentionner sur une autre machine.
