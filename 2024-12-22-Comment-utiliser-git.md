@@ -48,14 +48,14 @@ et enfin, quand vous êtes prêts :
 ```console
 git push  
 ```
-A noter que la premiere fois le code va vous demander de vous identifier avec git --global user.name etc. Faites comme le system vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaisiez apres)
+A noter que la première fois le code va vous demander de vous identifier avec git --global user.name etc. Faites comme le système vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaissiez après)
 
-Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le meme processus (clone, add, commit, push) depuis un autre ordinateurs du reseau, ce qui permet de la collaboration sur un projet. 
-A noter que sur le serveur, dans le dossier votreprojet.git vous **ne verrez PAS** votre code. Il est syncroniser a chaque push mais il n'existe pas en tant que tel dans le dossier sur le serveur. C'est pourquoi pour travailler sur votre code vous devez le git clone, add, commit, push comme mentionner sur une autre machine.
+Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le même processus (clone, add, commit, push) depuis un autre ordinateur du réseau, ce qui permet de la collaboration sur un projet. 
+À noter que sur le serveur, dans le dossier votreprojet.git vous **ne verrez PAS** votre code. Il est syncroniser à chaque push mais il n'existe pas en tant que tel dans le dossier sur le serveur. C'est pourquoi pour travailler sur votre code vous devez le git clone, add, commit, push comme mentionner sur une autre machine.
 
 ![Git add, commit, push](/assets/img/Git-add-commit-push.png)  
 
-Et voila! Maintenant passons a VSCode.
+Et voila! Maintenant passons à VSCode.
 
 ## VSCode 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -66,22 +66,22 @@ Et voila! Maintenant passons a VSCode.
 >{..}
 >"Dans le sondage auprès des développeurs réalisé par Stack Overflow en 2023, Visual Studio Code a été classé comme l'outil d'environnement de développement (IDE) le plus populaire, avec plus de 73 % des 86 544 répondants déclarant l'utiliser"
 
-C'est donc un éditeur de texte avec des fonctions interessantes, comme le support de Git, et il est utiliser par beucoups de monde. Dans cette sections je vais vous expliquer comment syncroniser vscode avec un serveur git sur le meme reseau
+C'est donc un éditeur de texte avec des fonctions intéressantes, comme le support de Git, et il est utiliser par beaucoups de monde. Dans cette section je vais vous expliquer comment syncroniser vscode avec un serveur git sur le même réseau
 
 {: .box-note} Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
 
 
-Premierement, cliquer sur le boutton avec 3 points reliés par des branches (comme illuster ci-dessous) :  
+Premièrement, cliquer sur le boutton avec 3 points reliés par des branches (comme illuster ci-dessous) :  
 ![Boutton source-control dans vscode](/assets/img/vscode-sourcecontrol-button.png)  
 
 Cela ouvrira un dialogue en haut de la page. Taper la même chose quand command line (ex. git@192.168.0.132:/usr/local/git/test.git). Cela ouvrira votre explorateur de fichiers. Choisisez un dossier de destination.
 
-VSCode vous demanderas si vous voulez ouvrir le repo qui a ete cloner, appuyer sur 'ouvrir' (ou open) :  
+VSCode vous demanderas si vous voulez ouvrir le repo qui a été cloner, appuyer sur 'ouvrir' (ou open) :  
 ![ouvrir rep ocloner](/assets/img/vscode-open-cloned-repo.png)  
 Finnalement, cliquer sur 'oui, faire confiance' quand cela vous sera demander.  
-Voila! Maintenant vous devriez voir les fichiers de votre repo (si vous l'avez deja modifier puis push au paravant)
+Voila! Maintenant vous devriez voir les fichiers de votre repo (si vous l'avez déja modifier puis push au paravant)
 
-Au fur et a mesure que vous modifier du code, rajouter des fichiers, etc, vous verrez une pastille avec des nombres sur le symbole 'source control' dans la barre laterale.
+Au fur et à mesure que vous modifier du code, rajouter des fichiers, etc, vous verrez une pastille avec des nombres sur le symbole 'source control' dans la barre laterale.
 Cela represente les changement apporter localement qui n'ont pas (encore) ete synchroniser avec le serveur:  
 ![Pastilles montrant les changement non-syncroniser](/assets/img/VScode-pastille-sourcecontrol.png)  
 Nous allons donc proceder a la synchronisation.  
