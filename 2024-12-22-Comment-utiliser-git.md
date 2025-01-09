@@ -30,13 +30,13 @@ git init --bare NomDuProjet.git
 Comme on peut le voir ici :  
 ![Prompt du git](/assets/img/Git-init-on-server.png)
 
-Ensuite, sur votre machine locale (celle ou vous codez) tapez simplement :
+Ensuite, sur votre machine locale (celle où vous codez) tapez simplement :
 git clone git@(ip ou nom local du serveur):/chemin/vers/votre/projet.git  
-Normallement, a cette etape si le serveur vous demandera le mot de passe pour l'utilisateur git (a moin que votre machine ai ete authorisee a se connecter au prealable). Communiquer avec les administrateurs pour le mot de passe
+Normallement, à cette étape si le serveur vous demandera le mot de passe pour l'utilisateur git (à moin que votre machine ai été authorisée à se connecter au préalable). Communiquer avec les administrateurs pour le mot de passe
 ![Git demandant le mot de passe](/assets/img/Git-requesting-password.png)  
-Si vous venez juste d'init le repo c'est normal que le systeme dise 'warning: You appear to have cloned an empty repository.'
-Maintenant vous pouvez allez dans le dossier avec 'cd (nom du dossier cloner, sans le .git), rajouter des fichier, modifier des fichiers existants, etc.
-Quand vous etes pret a garder cette version du code, taper (dans le dossier) :  
+Si vous venez juste d'init le repo c'est normal que le système dise 'warning: You appear to have cloned an empty repository.'
+Maintenant vous pouvez allez dans le dossier avec 'cd (nom du dossier cloner, sans le .git), rajouter des fichiers, modifier des fichiers existants, etc.
+Quand vous êtes prêt à garder cette version du code, taper (dans le dossier) :  
 ```console
 git add --all
 ```
@@ -48,7 +48,7 @@ et enfin, quand vous êtes prêts :
 ```console
 git push  
 ```
-A noter que la premiere fois le code va vous demander te vous identifier avec git --global user.name etc. Faites comme le system vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaisiez apres)
+A noter que la premiere fois le code va vous demander de vous identifier avec git --global user.name etc. Faites comme le system vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaisiez apres)
 
 Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le meme processus (clone, add, commit, push) depuis un autre ordinateurs du reseau, ce qui permet de la collaboration sur un projet. 
 A noter que sur le serveur, dans le dossier votreprojet.git vous **ne verrez PAS** votre code. Il est syncroniser a chaque push mais il n'existe pas en tant que tel dans le dossier sur le serveur. C'est pourquoi pour travailler sur votre code vous devez le git clone, add, commit, push comme mentionner sur une autre machine.
