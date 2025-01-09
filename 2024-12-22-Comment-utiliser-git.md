@@ -8,30 +8,25 @@ share-img:
 tags: [git, hash-ak, server, sourcecontrol, linux, vscode, terminal, cli, code]
 author: Hash-AK
 ---
-<div id="webring-wrapper">
-  <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
-  <a href="https://webring.hackclub.com/" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
-  <a href="https://webring.hackclub.com/" id="nextBtn" class="webring-anchor" title="Next">›</a>
-  <script src="https://webring.hackclub.com/embed.min.js"></script>
-</div>
 
-Vous avez peut-etre deja entendu parler de "git" ou de "source control", probablement en rapport avec GitHub.  
+Vous avez peut-être déjà entendu parler de "Git" ou de "source control", probablement en rapport avec GitHub.
 
-Le _source control_ est un moyen de garder trace des versions d'un code sur lequel on travail. Cela permet de reveir en arriere si quelquechose tourne mal, de collaborer plus facilement, etc.  
-[GitHub.com](https://github.com) est l'un des sites de source control les plus utiliser, mais dans note cas ici on va utiliser du source control _local_, avec git sur Linux. 
-A noter que git a ete installer avec une approche comme celle mentioner [dans ce poste](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
+Le _source control_ est un moyen de garder trâce des versions d'un code sur lequel on travail. Cela permet de reveir en arrière si quelque-chose tourne mal, de collaborer plus facilement, etc.  
+[GitHub.com](https://github.com) est l'un des sites de source control les plus utilisés, mais dans notre cas ici on va utiliser du source control _local_, avec git sur Linux. 
+À noter que git a été installé avec une approche comme celle mentionnée [dans ce poste](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
 
-Dans ce poste je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'integrer a VSCode 
+Dans ce poste je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'intégrer a VSCode 
 
 
 ## Command Line
 
-Tout d'abord il faut initialiser le repo git (la ou le code va etre archiver) sur le serveur distant.  
-{: .box-note} Note: Cette section est plus informative car cette etape sera probablement deja faite pour vous
-Si vous le pouvez, taper les commandes suivantes a la localisation specifier si vous avez acces au serveur, sinon aviser les personnes responsables.  
+Tout d'abord il faut initialiser le repo git (là où le code va être archivé) sur le serveur distant.  
+{: .box-note} Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
+Si vous le pouvez, taper les commandes suivantes à la localisation spécifier si vous avez accès au serveur, sinon aviser les personnes responsables.  
 En tant que l'utilisateur 'git' :
+```console
 git init --bare NomDuProjet.git  
-
+```
 Comme on peut le voir ici :  
 ![Prompt du git](/assets/img/Git-init-on-server.png)
 
@@ -42,12 +37,17 @@ Normallement, a cette etape si le serveur vous demandera le mot de passe pour l'
 Si vous venez juste d'init le repo c'est normal que le systeme dise 'warning: You appear to have cloned an empty repository.'
 Maintenant vous pouvez allez dans le dossier avec 'cd (nom du dossier cloner, sans le .git), rajouter des fichier, modifier des fichiers existants, etc.
 Quand vous etes pret a garder cette version du code, taper (dans le dossier) :  
-git add --all  
+```console
+git add --all
+```
 ensuite:  
+```console
 git commit -m "un bref message qui explque les changements apportees"
-et enfin, quand vous etes prets :
+```
+et enfin, quand vous êtes prêts :
+```console
 git push  
-
+```
 A noter que la premiere fois le code va vous demander te vous identifier avec git --global user.name etc. Faites comme le system vous le demande (vous pouvez entrer n'importe quoi comme utilisateur@systeme.loc pour l'email et le nom d'utilisateur, tant que c'est assez unique pour que vous vous reconaisiez apres)
 
 Maintenant le code est sauvegarder sur le serveur. Vous pouvez faire le meme processus (clone, add, commit, push) depuis un autre ordinateurs du reseau, ce qui permet de la collaboration sur un projet. 
