@@ -11,8 +11,8 @@ author: Hash-AK
 
 Vous avez peut-être déjà entendu parler de "Git" ou de "source control", probablement en rapport avec GitHub.
 
-Le _source control_ est un moyen de garder trâce des versions d'un code sur lequel on travail. Cela permet de reveir en arrière si quelque-chose tourne mal, de collaborer plus facilement, etc.  
-[GitHub.com](https://github.com) est l'un des sites de source control les plus utilisés, mais dans notre cas ici on va utiliser du source control _local_, avec git sur Linux. 
+Le _source control_ est un moyen de garder trâce des versions d'un code sur lequel on travail. Cela permet de revenir en arrière si quelque-chose tourne mal, de collaborer plus facilement, etc.  
+[GitHub.com](https://github.com) est l'un des site de source control les plus utilisés, mais dans notre cas ici on va utiliser du source control _local_, avec git sur Linux. 
 À noter que git a été installé avec une approche comme celle mentionnée [dans cet article](https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/).  
 
 Dans l'article présent je vous montrerai comment 1) utiliser git depuis la ligne de commande (CLI) sur Linux et 2) comment l'intégrer a VSCode 
@@ -23,8 +23,8 @@ Dans l'article présent je vous montrerai comment 1) utiliser git depuis la lign
 Tout d'abord il faut initialiser le repo git (là où le code va être archivé) sur le serveur distant.  
 
 {: .box-note}
-Note: Cette section est plus informative car cette étape sera probablement déja faite pour vous
-Si vous le pouvez, taper les commandes suivantes à la localisation spécifier si vous avez accès au serveur, sinon aviser les personnes responsables.  
+Note: Cette section est informative car cette étape sera fort probablement déja faite pour vous.
+Si vous le pouvez, taper les commandes suivantes à la localisation spécifiée si vous avez accès au serveur, sinon aviser les personnes responsables.  
 
 En tant que l'utilisateur 'git' :
 ```console
