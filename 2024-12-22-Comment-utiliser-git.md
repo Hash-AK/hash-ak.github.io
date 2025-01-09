@@ -66,15 +66,15 @@ Et voila! Maintenant passons a VSCode.
 >{..}
 >"Dans le sondage auprès des développeurs réalisé par Stack Overflow en 2023, Visual Studio Code a été classé comme l'outil d'environnement de développement (IDE) le plus populaire, avec plus de 73 % des 86 544 répondants déclarant l'utiliser"
 
-C'est donc un editeur de texte avec des fonctions interessantes, comme le support de Git, et il est utiliser par beucoups de monde. Dans cette sections je vais vous expliquer comment syncroniser vscode avec un serveur git sur le meme reseau
+C'est donc un éditeur de texte avec des fonctions interessantes, comme le support de Git, et il est utiliser par beucoups de monde. Dans cette sections je vais vous expliquer comment syncroniser vscode avec un serveur git sur le meme reseau
 
-{: .box-note} Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clef de connection a distance ssh authorisee sur le serveur. Demandez a vos administrateurs si c'est le cas.
+{: .box-note} Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
 
 
-Premierement, cliquer sur le boutton avec 3 points relies par des branches (comme illuster ci-dessous) :  
+Premierement, cliquer sur le boutton avec 3 points reliés par des branches (comme illuster ci-dessous) :  
 ![Boutton source-control dans vscode](/assets/img/vscode-sourcecontrol-button.png)  
 
-Cela ouvrira un dialogue en haut de la page. Taper la meme chose quand command line (ex. git@192.168.0.132:/usr/local/git/test.git). Cela ouvrira votre explorateur de fichiers. Choisisez un dossier de destination.
+Cela ouvrira un dialogue en haut de la page. Taper la même chose quand command line (ex. git@192.168.0.132:/usr/local/git/test.git). Cela ouvrira votre explorateur de fichiers. Choisisez un dossier de destination.
 
 VSCode vous demanderas si vous voulez ouvrir le repo qui a ete cloner, appuyer sur 'ouvrir' (ou open) :  
 ![ouvrir rep ocloner](/assets/img/vscode-open-cloned-repo.png)  
