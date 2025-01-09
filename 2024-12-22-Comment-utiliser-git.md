@@ -68,7 +68,7 @@ Et voila! Maintenant passons à VSCode.
 
 C'est donc un éditeur de texte avec des fonctions intéressantes, comme le support de Git, et il est utiliser par beaucoups de monde. Dans cette section je vais vous expliquer comment syncroniser vscode avec un serveur git sur le même réseau
 
-{: .box-note} Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
+{: .box-note}Note: Pour utiliser dans VSCode votre machine doit ABSOLUMENT avoir sa clée de connection à distance ssh authorisée sur le serveur. Demandez à vos administrateurs si c'est le cas.
 
 
 Premièrement, cliquer sur le boutton avec 3 points reliés par des branches (comme illuster ci-dessous) :  
