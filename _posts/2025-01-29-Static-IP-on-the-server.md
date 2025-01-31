@@ -3,7 +3,7 @@ layout: post
 title: (Makerspace's Server Part 3)
 subtitle: Static IP on the server (and more)
 cover-img: 
-thumbnail-img: 
+thumbnail-img: /assets/img/Server-headless.jpg
 share-img: 
 tags: [hash-ak, linux, ip, static ip, server, makerspace, netplan, ubuntu, headless, ssh]
 author: Hash-AK
