@@ -5,7 +5,7 @@ subtitle: Static IP on the server (and more)
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [hash-ak, linux, ip, static ip. server, makerspace]
+tags: [hash-ak, linux, ip, static ip. server, makerspace, netplan, ubuntu, headless, ssh]
 author: Hash-AK
 ---
 Hello! It's been a long break since my [last post about the makerspace's server](https://hash-ak.github.io/2024-12-02-Always-Check-Your-Installation-Medias/). I will try to correct that today.
@@ -24,7 +24,7 @@ Basically, you simply change a configuration on the server that _asks_ the route
 
 Seems cool, huh?
 
-Well it was _sort of_ harder than expected. I follow [this tutorial](https://www.freecodecamp.org/news/setting-a-static-ip-in-ubuntu-linux-ip-address-tutorial/), everything **_seemed_** to work fine, like the IP was the one I entered, I could ssh from the local network to the correct IP.
+Well it was _sort of_ harder than expected. I follow [this tutorial](https://www.freecodecamp.org/news/setting-a-static-ip-in-ubuntu-linux-ip-address-tutorial/), everything **_seemed_** to work fine, like the IP was the one I entered in the configuration, I could ssh from the local network to the correct IP.
 
 Great. Then came the trouble.
 
@@ -49,10 +49,25 @@ The traceroute (the route your computer need to take to reach the Net) was wrong
 
 I then corrected that mistake and launched back the netplan rule, so the static IP worked _and the connection to apt too!_
 
+Here's a final template like wht I used :  
+'''console
+network:
+    version: 2
+    renderer: networkd
+    ethernets:
+        (put your interface here):
+            dhcp4: no
+            addresses:
+                - (the ip you want, like 192.168.13.137)/24
+            gateway4: 192.168.0.1
+            nameservers:
+                addresses: [8.8.8.8, 8.8.4.4]
+'''
 
-Now, you literally just need to plug the server to ethernet/wifi, connect the router (if it's not already connected), and it all setup by itself! No need of a display before ssh-ing.
+Now, you literally just need to plug the server to ethernet/wifi, connect the router (if it's not already connected), and it all setup by itself! No need of a display before ssh-ing. A 100% headless server.
 
 In thew next post, I will probably try to catch-up on the git tentatives (because yes, we have git on it!)
 
 That's one step forward to our goal. See you soon for other server-related stories!  
+Thanks for reading,
 **_Hash-AK_**
