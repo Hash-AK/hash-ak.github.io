@@ -50,7 +50,7 @@ The traceroute (the route your computer need to take to reach the Net) was wrong
 I then corrected that mistake and launched back the netplan rule, so the static IP worked _and the connection to apt too!_
 
 Here's a final template like wht I used :  
-'''console
+```yaml
 network:
     version: 2
     renderer: networkd
@@ -62,12 +62,12 @@ network:
             gateway4: 192.168.0.1
             nameservers:
                 addresses: [8.8.8.8, 8.8.4.4]
-'''
+```
 
 Now, you literally just need to plug the server to ethernet/wifi, connect the router (if it's not already connected), and it all setup by itself! No need of a display before ssh-ing. A 100% headless server.
 
 In thew next post, I will probably try to catch-up on the git tentatives (because yes, we have git on it!)
 
 That's one step forward to our goal. See you soon for other server-related stories!  
-Thanks for reading,
+Thanks for reading,  
 **_Hash-AK_**
