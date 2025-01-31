@@ -56,6 +56,6 @@ But now I have more information :
 - There was a port of some Linux on them (again, LibreELEC), built with kernel 3.10.
 
 Well... I`m a little bit more advanced but not that much. Still no Debian/Ubuntu/Armbian images in sight. 
-I definitely need some work to reach my goal. If it's even possible...   (SPOILER: it is ;-) )  
+I definitely need some work to reach my goal. If it's even possible...   (SPOILER: it is possible... )  
 Stay tuned to know where this will go!  
 **_Hash-AK_**
