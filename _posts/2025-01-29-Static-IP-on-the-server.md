@@ -5,7 +5,7 @@ subtitle: Static IP on the server (and more)
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [hash-ak, linux, ip, static ip. server, makerspace, netplan, ubuntu, headless, ssh]
+tags: [hash-ak, linux, ip, static ip, server, makerspace, netplan, ubuntu, headless, ssh]
 author: Hash-AK
 ---
 Hello! It's been a long break since my [last post about the makerspace's server](https://hash-ak.github.io/2024-12-02-Always-Check-Your-Installation-Medias/). I will try to correct that today.
@@ -66,8 +66,10 @@ network:
 
 Now, you literally just need to plug the server to ethernet/wifi, connect the router (if it's not already connected), and it all setup by itself! No need of a display before ssh-ing. A 100% headless server.
 
+![Image of the server with no display and the router](/assets/img/Server-headless.jpg)
+
 In thew next post, I will probably try to catch-up on the git tentatives (because yes, we have git on it!)
 
 That's one step forward to our goal. See you soon for other server-related stories!  
-Thanks for reading,  
+Thanks for reading,
 **_Hash-AK_**
