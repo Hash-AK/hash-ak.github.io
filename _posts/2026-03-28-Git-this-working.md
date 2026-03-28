@@ -1,14 +1,14 @@
 ---
 layout: post
 title: (Makerspace's Server Part 4)
-subtitle: Git, Samba and more!
+subtitle: Git this working!
 cover-img:
 thumbnail-img:
 share-img:
-tags: [markerspace, hash-ak, server, git, samba]
+tags: [markerspace, hash-ak, server, git]
 author: Hash-AK
 ---
-## Git, Samba and more!
+## Git this working!
  
 It's been a really long time since I posted here, so I will try to explain everythign that I did on the servers since.
 
@@ -31,8 +31,40 @@ So basically, hosting git would allow us to replace github, and have everything 
 So I seted up git on the server, with these commands :
 ```bash
  sudo useradd –home /home/git –shell /bin/bash
- sudo mkdir /usr/local/git
- sudo chown git:git /usr/local/git
+ sudo chown git:git /home/git
  sudo passwd git # choose the password you want, you will need it when doing git operations
 ```
+/home/git then become the root of the Git server, so I can create a Git project while being logged in as the Git user with :
+```bash
+su git
+cd /home/git
+git init –bare projectname.git
+```
+I can then clone the repo from any hosts, with
+```bash
+git clone git@gitserver.local:/home/git/projectname.git
+```
+The only problem is that it will prompt for the password at every single git action. At first it didn't sound annoying by itself, but when I tried to make it work with VS Code's Git funcitonality and it didn't work, I realized I would have to use SSH Keys (for some reason VS Code always failed to clone the repo because the was just no password prompt popping up thus no authentification).
+I added all the machines' public ssh keys to the /home/git/.ssh/authorized_keys file. For Linux hosts, it's siwas quite simple :
+```bash
+ssh-keygen -t ed25519
+ssh-copy-id git@gitserver.local
+```
+For Windows (which was the major problem, where VS Code was), it was slightly more difficult :
+```powershell
+ssh-keygen -t ed25519
+type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh git@gitserver.local "cat >> .ssh/authorized_keys"
+```
+I also had to install Git from [Winget](https://learn.microsoft.com/en-us/windows/package-manager/) like this :
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+One thing to note on both Windows and Linux, is that I also had to configure the local user's "git identity", with
+```bash
+git config --global user.name "Name"
+git config --global user.email "user@machine"
+```
+Witouth that, the user can git clone a repo, but not push or anything that modifies the upstream.
+
 
