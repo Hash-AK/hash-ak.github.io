@@ -10,7 +10,7 @@ author: Hash-AK
 ---
 ## Git this working!
  
-It's been a really long time since I posted here, so I will try to explain everythign that I did on the servers since.
+It's been a really long time since I posted here, this post was suposed to come out in November 2025 but I delayed I forgot to push it, so I will try to explain everything that I did on the servers since.
 
 As I said in my [last blog post](https://hash-ak.github.io/2025-01-29-Static-IP-on-the-server/), we had _git_ running on the server. You might ask "but what is git"? Git is a technology of distributed version control, which serves to keep versions of your previous attempts when you code, so that if your new patch/version doesn't work, you can 'go back in time' and start over at the previous git-saved version. It also allow to have different 'branchs' so you  can manage different versions (example the stable branch, the developpement branch, a testign branch with new patches, etc).
 
