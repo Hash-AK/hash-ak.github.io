@@ -5,16 +5,16 @@ subtitle: Git this working!
 cover-img:
 thumbnail-img:
 share-img:
-tags: [markerspace, hash-ak, server, git]
+tags: [makerspace, hash-ak, server, git]
 author: Hash-AK
 ---
 ## Git this working!
  
-It's been a really long time since I posted here, this post was suposed to come out in November 2025 but I delayed I forgot to push it, so I will try to explain everything that I did on the servers since.
+It's been a really long time since I posted here, this post was supposed to come out in November 2025 but I delayed I forgot to push it, so I will try to explain everything that I did on the servers since.
 
-As I said in my [last blog post](https://hash-ak.github.io/2025-01-29-Static-IP-on-the-server/), we had _git_ running on the server. You might ask "but what is git"? Git is a technology of distributed version control, which serves to keep versions of your previous attempts when you code, so that if your new patch/version doesn't work, you can 'go back in time' and start over at the previous git-saved version. It also allow to have different 'branchs' so you  can manage different versions (example the stable branch, the developpement branch, a testign branch with new patches, etc).
+As I said in my [last blog post](https://hash-ak.github.io/2025-01-29-Static-IP-on-the-server/), we had _git_ running on the server. You might ask "but what is git"? Git is a technology of distributed version control, which serves to keep versions of your previous attempts when you code, so that if your new patch/version doesn't work, you can 'go back in time' and start over at the previous git-saved version. It also allow to have different 'branches' so you  can manage different versions (example the stable branch, the development branch, a testing branch with new patches, etc).
 
-Accordign to [Wikipedia](https://en.wikipedia.org/wiki/Git) :
+According to [Wikipedia](https://en.wikipedia.org/wiki/Git) :
 
 >Git is a distributed version control software system that is capable of managing versions of source code or data. It is often used to control source code by programmers who are developing software collaboratively.
 
@@ -28,7 +28,7 @@ Accordign to [Wikipedia](https://en.wikipedia.org/wiki/Git) :
 
 So basically, hosting git would allow us to replace github, and have everything locally. In the context of a makerspace it can be really interesting. 
 
-So I seted up git on the server, with these commands :
+So I set up git on the server, with these commands :
 ```bash
  sudo useradd –home /home/git –shell /bin/bash
  sudo chown git:git /home/git
@@ -44,8 +44,8 @@ I can then clone the repo from any hosts, with
 ```bash
 git clone git@gitserver.local:/home/git/projectname.git
 ```
-The only problem is that it will prompt for the password at every single git action. At first it didn't sound annoying by itself, but when I tried to make it work with VS Code's Git funcitonality and it didn't work, I realized I would have to use SSH Keys (for some reason VS Code always failed to clone the repo because the was just no password prompt popping up thus no authentification).
-I added all the machines' public ssh keys to the /home/git/.ssh/authorized_keys file. For Linux hosts, it's siwas quite simple :
+The only problem is that it will prompt for the password at every single git action. At first it didn't sound annoying by itself, but when I tried to make it work with VS Code's Git functionality and it didn't work, I realized I would have to use SSH Keys (for some reason VS Code always failed to clone the repo because the was just no password prompt popping up thus no authentication).
+I added all the machines' public ssh keys to the /home/git/.ssh/authorized_keys file. For Linux hosts, it was quite simple :
 ```bash
 ssh-keygen -t ed25519
 ssh-copy-id git@gitserver.local
@@ -65,6 +65,6 @@ One thing to note on both Windows and Linux, is that I also had to configure the
 git config --global user.name "Name"
 git config --global user.email "user@machine"
 ```
-Witouth that, the user can git clone a repo, but not push or anything that modifies the upstream.
+Without that, the user can git clone a repo, but not push or anything that modifies the upstream.
 
 
