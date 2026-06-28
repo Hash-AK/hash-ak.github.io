@@ -30,7 +30,8 @@ So basically, hosting git would allow us to replace github, and have everything 
 
 So I set up git on the server, with these commands :
 ```bash
- sudo useradd –home /home/git –shell /bin/bash
+ sudo useradd git --home /home/git --shell /bin/bash
+ sudo mkdir /home/git
  sudo chown git:git /home/git
  sudo passwd git # choose the password you want, you will need it when doing git operations
 ```
@@ -38,13 +39,13 @@ So I set up git on the server, with these commands :
 ```bash
 su git
 cd /home/git
-git init –bare projectname.git
+git init --bare projectname.git
 ```
 I can then clone the repo from any hosts, with
 ```bash
 git clone git@gitserver.local:/home/git/projectname.git
 ```
-The only problem is that it will prompt for the password at every single git action. At first it didn't sound annoying by itself, but when I tried to make it work with VS Code's Git functionality and it didn't work, I realized I would have to use SSH Keys (for some reason VS Code always failed to clone the repo because the was just no password prompt popping up thus no authentication).
+The only problem is that it will prompt for the password at every single git action. At first it didn't sound annoying by itself, but when I tried to make it work with VS Code's Git functionality and it didn't work, I realized I would have to use SSH Keys (for some reason VS Code always fails to clone the repo because there's just no password prompt popping up thus no authentication).
 I added all the machines' public ssh keys to the /home/git/.ssh/authorized_keys file. For Linux hosts, it was quite simple :
 ```bash
 ssh-keygen -t ed25519
@@ -65,6 +66,6 @@ One thing to note on both Windows and Linux, is that I also had to configure the
 git config --global user.name "Name"
 git config --global user.email "user@machine"
 ```
-Without that, the user can git clone a repo, but not push or anything that modifies the upstream.
+Without that, the user can git clone any repo, but not push or anything that modifies the upstream.
 
 
