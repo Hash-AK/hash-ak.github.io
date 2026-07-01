@@ -13,3 +13,5 @@ I'm a Linux user since summer 2023 and an amateur server builder since July 2024
 I **REALLY** like the Raspberry Pi SBC line.  
 This is my blog to post about stuff I like!
 
+I hope you will enjoy this little blog of mine :)
+
